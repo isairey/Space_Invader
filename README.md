@@ -1,7 +1,29 @@
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 👾 Space Invader Clone en React Native
 
+Un juego retro inspirado en *Space Invaders*, desarrollado en **React Native**.  
+Disfruta de la experiencia arcade clásica en dispositivos móviles con controles táctiles y animaciones fluidas.
+
+## 🚀 Características
+- 🎮 Jugabilidad clásica con enemigos descendiendo en oleadas.
+- 📱 Compatible con Android e iOS gracias a React Native.
+- ⚡ Animaciones fluidas y responsive.
+- 🔊 Sonidos retro para mayor inmersión.
+- 🏆 Sistema de puntuación y niveles progresivos.
+
+## 🛠️ Tecnologías utilizadas
+- **React Native** (JavaScript/TypeScript)
+- **Expo** para desarrollo rápido y pruebas
+- **React Hooks** para manejo de estado
+- **Styled Components / CSS-in-JS** para estilos
+- **Assets gráficos y sonidos retro**
+
+## 📦 Instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/isaireyespena/space-invader-react-native.git
 ## Get started
 
 1. Install dependencies
