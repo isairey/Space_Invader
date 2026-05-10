@@ -101,7 +101,7 @@ El objetivo es sobrevivir el mayor tiempo posible y obtener la puntuación más 
 # 📂 Estructura del proyecto
 
 ```bash
-space-invader-react-native/
+Space_Invader/
 │
 ├── app/               # Pantallas principales
 ├── components/        # Componentes reutilizables
@@ -119,7 +119,7 @@ space-invader-react-native/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isaireyespena/space-invader-react-native.git
+git clone https://github.com/isairey/Space_Invader.git
 ```
 
 ---
