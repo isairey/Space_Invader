@@ -1,72 +1,267 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-# 👾 Space Invader Clone en React Native
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/4213/4213732.png" />
 
-Un juego retro inspirado en *Space Invaders*, desarrollado en **React Native**.  
-Disfruta de la experiencia arcade clásica en dispositivos móviles con controles táctiles y animaciones fluidas.
+# 👾 Space Invader Clone (React Native)
 
-## 🚀 Características
-- 🎮 Jugabilidad clásica con enemigos descendiendo en oleadas.
-- 📱 Compatible con Android e iOS gracias a React Native.
-- ⚡ Animaciones fluidas y responsive.
-- 🔊 Sonidos retro para mayor inmersión.
-- 🏆 Sistema de puntuación y niveles progresivos.
+### Juego arcade clásico llevado a mobile 🚀
 
-## 🛠️ Tecnologías utilizadas
-- **React Native** (JavaScript/TypeScript)
-- **Expo** para desarrollo rápido y pruebas
-- **React Hooks** para manejo de estado
-- **Styled Components / CSS-in-JS** para estilos
-- **Assets gráficos y sonidos retro**
+<p align="center">
+  <b>Space Invader Clone</b> es un videojuego móvil desarrollado con React Native y Expo, inspirado en el clásico arcade Space Invaders, donde el jugador debe defender la Tierra eliminando oleadas de enemigos.
+</p>
 
-## 📦 Instalación
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/isaireyespena/space-invader-react-native.git
-## Get started
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Expo-Framework-000020?style=for-the-badge&logo=expo&logoColor=white">
+  <img src="https://img.shields.io/badge/Game-Arcade-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue?style=for-the-badge">
+</p>
 
-1. Install dependencies
+<p align="center">
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-gameplay">Gameplay</a>
+</p>
 
-   ```bash
-   npm install
-   ```
+</div>
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+# 🌌 Acerca del juego
 
-In the output, you'll find options to open the app in a
+**Space Invader Clone** es una adaptación moderna del clásico juego arcade, desarrollado en **React Native + Expo**, donde el jugador controla una nave espacial que debe eliminar enemigos en formación mientras esquiva ataques.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+El objetivo es sobrevivir el mayor tiempo posible y obtener la puntuación más alta.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+# 🚀 Características
 
-When you're ready, run:
+## 👾 Jugabilidad
+
+- 🎮 Controles táctiles simples e intuitivos
+- 👾 Oleadas de enemigos progresivas
+- 🧠 Dificultad creciente
+- 🏆 Sistema de puntuación
+- 💥 Colisiones y disparos dinámicos
+
+---
+
+## 📱 Experiencia Mobile
+
+- 📲 Compatible con Android e iOS
+- ⚡ Rendimiento optimizado en tiempo real
+- 🔄 Animaciones fluidas
+- 📐 UI adaptable a diferentes pantallas
+
+---
+
+## 🔊 Inmersión
+
+- 🔊 Sonidos estilo retro arcade
+- 🎨 Diseño inspirado en juegos clásicos
+- 🚀 Efectos visuales dinámicos
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 📱 Mobile Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,ts,js" />
+</p>
+
+- React Native
+- Expo
+- JavaScript / TypeScript
+- React Hooks
+
+---
+
+## 🎨 UI & Animaciones
+
+- React Native Animated API
+- Styled Components / CSS-in-JS
+- Sprites y assets retro
+- Layout responsive
+
+---
+
+## ⚙️ Herramientas
+
+- Expo CLI
+- Metro Bundler
+- Android Studio Emulator
+- iOS Simulator
+
+---
+
+# 📂 Estructura del proyecto
 
 ```bash
-npm run reset-project
+space-invader-react-native/
+│
+├── app/               # Pantallas principales
+├── components/        # Componentes reutilizables
+├── assets/            # Imágenes y sonidos
+├── hooks/             # Lógica reutilizable
+├── utils/             # Funciones auxiliares
+├── game/              # Lógica del juego
+└── App.js             # Entrada principal
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+# ⚡ Instalación
 
-To learn more about developing your project with Expo, look at the following resources:
+## 1️⃣ Clonar repositorio
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/isaireyespena/space-invader-react-native.git
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 2️⃣ Instalar dependencias
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ Iniciar proyecto
+
+```bash
+npx expo start
+```
+
+---
+
+## 4️⃣ Ejecutar en dispositivo
+
+Puedes usar:
+
+- 📱 Expo Go
+- 🤖 Android Emulator
+- 🍎 iOS Simulator
+
+---
+
+# 🎮 Gameplay
+
+## 🛸 Controles
+
+- 👈 Mover nave: deslizar izquierda/derecha
+- 🔫 Disparar: tap en pantalla
+- 👾 Eliminar enemigos antes de que bajen
+
+---
+
+## 🏆 Objetivo
+
+- Sobrevivir oleadas
+- Obtener la máxima puntuación
+- Evitar colisiones con enemigos
+
+---
+
+# 📊 Sistema del juego
+
+- 👾 Enemigos en formación
+- 🚀 Disparos del jugador
+- 💥 Detección de colisiones
+- 🧮 Sistema de puntos
+- 🔥 Incremento de dificultad
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprender y practicar
+
+- React Native
+- Desarrollo de videojuegos
+- Física básica de colisiones
+- Animaciones móviles
+- Arquitectura de juegos
+- Expo workflow
+
+---
+
+# 📈 Roadmap
+
+## 🚧 Próximas mejoras
+
+- 👾 Boss final
+- 🔊 Más efectos de sonido
+- 🎨 Skins para la nave
+- 🏆 Leaderboard online
+- 🌐 Multijugador
+- 📱 Haptic feedback
+- ⚡ Power-ups
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto  
+2. Crear rama
+
+```bash
+git checkout -b feature/mejora-gameplay
+```
+
+3. Commit
+
+```bash
+git commit -m "✨ Mejora en gameplay"
+```
+
+4. Push
+
+```bash
+git push origin feature/mejora-gameplay
+```
+
+5. Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+## Isai Reyes Game Developer
+
+Apasionado por videojuegos, mobile apps y experiencias interactivas.
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Compártelo
+
+---
+
+# 📜 Licencia
+
+Proyecto educativo desarrollado con React Native + Expo.
+
+---
+
+<div align="center">
+
+### 👾 Space Invader Clone — revive el clásico arcade en tu móvil 🚀
+
+</div>
